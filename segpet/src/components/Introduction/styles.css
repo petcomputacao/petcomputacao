@@ -1,0 +1,39 @@
+.introduction_container{
+  display: flex;
+  margin-top: 100px;
+
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.introduction_container_content{
+  max-width: 970px;
+
+  text-align: center;
+  color: var(--primary);
+  border-top: 1px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
+  
+  padding-bottom: 50px;
+}
+
+.introduction_item_title{
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin: 45px 0 45px 0;
+}
+
+.introduction_item_description{
+  font-size: 16px;
+  margin: 50px;
+}
+
+.introduction_item_button{
+  font-size: 14px; 
+  padding: 15px;
+  color: var(--primary);
+  text-decoration: none;
+  border: 1px solid var(--primary);
+}
