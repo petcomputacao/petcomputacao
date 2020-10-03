@@ -1,0 +1,36 @@
+.slideshow_container {
+  width: 100vw;
+}
+
+.slideshow_item_image{
+  height: 100VH;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.slideshow_container_text{
+  width: 600px;
+  height: 230px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10%;
+}
+
+.slideshow_item_title{
+  font-size: 24px;
+  font-weight: bold;
+
+  color: var(--white);
+}
+
+.slideshow_item_subtitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--white);
+  padding: 7%;
+}
