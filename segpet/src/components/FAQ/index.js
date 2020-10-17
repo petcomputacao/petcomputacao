@@ -15,13 +15,13 @@ function FAQ(){
     setExpanded(isExpanded ? panel : false);
   };
 
-  const myStyleSheet = {'backgroundColor':'var(--primary)', 'color':'white'};
+  const myStyleSheet = {'backgroundColor':'var(--primary)', 'color':'white', 'textAlign': 'justify'};
 
   function SingleAccordion(props){
     var panel = props.panel;
     
     return(
-      <Accordion  style={myStyleSheet} expanded={expanded === panel} onChange={handleChange(panel)}>
+      <Accordion style={myStyleSheet} expanded={expanded === panel} onChange={handleChange(panel)}>
         <AccordionSummary expandIcon={<ExpandMoreIcon style={myStyleSheet}/>} id={props.panelId}>
           <FaEllipsisV className='accordion_item_logo'/>{props.question}</AccordionSummary>
         <AccordionDetails style={myStyleSheet}>{props.answer}</AccordionDetails>

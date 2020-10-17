@@ -1,12 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style:none; 
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Mulish', sans-serif;
+}
 
-
+:root {
   --primary: #252B42;
   --black: #000000;
   --white: #FFFFFF;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+} 
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }

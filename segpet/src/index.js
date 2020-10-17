@@ -12,7 +12,6 @@ ReactDOM.render(
         <Route path="/" component={Home} exact />
       </Switch>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>, 
   document.getElementById('root')
 );
-
