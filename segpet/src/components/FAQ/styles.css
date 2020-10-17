@@ -10,11 +10,17 @@
 
 .faq_item_title{
   font-size: 36px;
-  text-align: left;
+  text-align: justify;
   margin-bottom: 10px;
 }
 
 .accordion_item_logo{
   margin-right: 10px;
   color: var(--white);
+}
+
+@media screen and (max-width: 990px){
+  .faq_container {
+    padding: 5%;
+  }
 }

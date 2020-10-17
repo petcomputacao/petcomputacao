@@ -41,7 +41,7 @@
   border: 5px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 990px){
   .card_container_right, .card_container_left{
     grid-template-columns: 1fr;
     text-align: center;

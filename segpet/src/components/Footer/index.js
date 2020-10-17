@@ -11,27 +11,28 @@ function Footer(){
         <img className='footer_item_logo' src={Logo} alt='logo'/>
       </a>
       <div className='footer_container_text'>
-        <p style={{'fontSize':'14px'}}>Encontre-nos</p>
-        <br/>
+        <p className={'footer_container_text_title'}>Encontre-nos</p>
         <p>Rua Aprígio Veloso, 882 - Bairro Universitário Bloco CN - Térreo - sala 007. CEP: 58429-900 Campina Grande, Paraíba, Brasil.</p>
         <p>Tel: (83) 2101-1122 (Ramal: 2009)</p>
-        <p>E-mail</p>
-        <p>pet@computacao.ufcg.edu.br</p>
+        <p>E-mail: pet@computacao.ufcg.edu.br</p>
       </div>
       <div className='footer_container_text'>
-        <p style={{'fontSize':'14px'}}>Sites relacionados</p>
-        <br/>
-        <Link to='/' style={{'fontSize':'12px'}}>Apresentação - PET</Link>
-        <br/>
-        <Link to='/' style={{'fontSize':'12px'}}>Computação UFCG</Link>
-        <br/>
-        <Link to='/' style={{'fontSize':'12px'}}>Universidade Federal de Campina Grande</Link>
-        <br/>
-        <Link to='/' style={{'fontSize':'12px'}}>Portal MEC</Link>
+        <p className={'footer_container_text_title'}>Sites relacionados</p>
+        <p>
+          <Link to='/' style={{'fontSize':'12px'}}>Apresentação - PET</Link>
+        </p>
+        <p>
+          <Link to='/' style={{'fontSize':'12px'}}>Computação UFCG</Link>
+        </p>
+        <p>        
+          <Link to='/' style={{'fontSize':'12px'}}>Universidade Federal de Campina Grande</Link>
+        </p>
+        <p>
+          <Link to='/' style={{'fontSize':'12px'}}>Portal MEC</Link>
+        </p>
       </div>
       <div className='footer_container_text'>
-        <p style={{'fontSize':'14px'}}>Conecte-se conosco</p>
-        <br/>
+        <p className={'footer_container_text_title'}>Conecte-se conosco</p>
         <p>Siga-nos nas redes sociais para manter-se atualizado sobre nossas atividades.</p>
         <div className='footer_container_icons'>
           <Link to='/facebook'>

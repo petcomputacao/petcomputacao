@@ -1,6 +1,7 @@
 .header_container{
   position: fixed;
-  width: 100vw;
+  overflow: hidden;
+  width: 100%;
   background-color: var(--primary);
 
   display: grid;
@@ -8,8 +9,8 @@
   align-items: center;
 
   top: 0;
-  opacity: 0.95;
   z-index: 2;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 1));
 }
 
 .header_container_nav{
@@ -19,9 +20,8 @@
 
 .header_container_nav a{
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
-
 .header_container_image{
   display: grid;
   justify-content: center; 
@@ -31,18 +31,95 @@
   max-width: 125px;
 }
 
-@media screen and (max-width: 600px){
-  .header_container{
-    position: relative;
-    grid-template-columns: 1fr;
-  }
+.show{
+  display: none;
+}
 
-  .header_container_nav{
+.nav_label{
+  text-align: left;
+  padding: 12px;
+}
+
+.icon_close{
+  display: none;
+  justify-self: right;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 990px){
+  .header_container{
+    position: fixed;
     grid-template-columns: 1fr;
+    opacity: 1;
   }
 
   .header_container_nav a{
-    padding: 14px 20px;
-    text-align: center;
+    display: none;
   }
-}
+
+  .show{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .header_container_nav{
+    display: grid;
+    justify-content: center; 
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header_container_nav a {
+    display: none;
+  }
+
+  .header_container_nav.responsive a {
+    display: grid;
+    text-align:center; 
+    align-items: center;
+    justify-content: center; 
+    text-align:center;
+  }
+
+  .header_container_nav.responsive a:hover {
+    background-color: var(--white);   
+    opacity: 1;
+    color: var(--primary);
+  }
+
+  .header_container_image{
+    display: none;
+  }
+
+  .nav_container_image{
+    display: grid;
+    align-items: center;
+    justify-self: left;
+    margin: 2% 0 0 10%;
+  }
+
+  .header_item_image1{
+    max-width: 100px;
+  }
+
+  .icon_bars{
+    justify-self: right;
+    margin-right: 10%;
+  }
+
+  .icon_bars.responsive{
+    display: none;
+  }
+
+  .icon_close.responsive{
+    display: block;
+    justify-self: right;
+    margin: 27px 10% 0 0;
+  }
+
+  .header_item_image1.responsive{
+    display: none;
+  }
+} 

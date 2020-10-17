@@ -10,12 +10,7 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.pilares_text{
-  font-size: 24px;
-  color: var(--primary);
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 990px){
   .pillars_container_content {
     grid-template-columns: 1fr;
     text-align: center;

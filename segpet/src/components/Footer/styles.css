@@ -1,16 +1,17 @@
 .footer_container{
-  width: 100vw;
+  width: 100%;
   margin-top: 100px;
-  background-color: var(--primary);
   color: var(--white);
-
+  background-color: var(--primary);
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .footer_container_text{  
-  padding: 50px;
+  padding: 5%;
   font-size: 12px;
+  text-align:center;
 }
 
 .footer_container_text a{
@@ -24,15 +25,15 @@
 }
 
 .footer_container_icons{
-  margin-top: 20px;
   display: grid;
-  grid-template: repet(4,1fr);
   grid-auto-flow: column;
+  grid-template: repet(4,1fr);
+  margin: 5% 10% 0 10%;
 }
 
 .footer_item_logo{
   align-self: center;
-  max-height: 145px;
+  max-height: 120px;
 }
 
 .footer_item_icon{
@@ -40,10 +41,32 @@
   height: 35px;
 }
 
+.footer_container_text_title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 880px){
+  .footer_item_logo{
+    max-height: 100px;
+    padding: 5%;
+  }
+  .footer_container_text{
+    padding: 5%;
+  }
+  .footer_container_icons{
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 600px){
   .footer_container{
     grid-template-columns: 1fr;
-    text-align: center;
   }
-  
+  .footer_container_text{
+    padding: 0 10%;
+  }
+  .footer_container_icons{
+    margin: 5% 10% 0 10%;
+  }
 }

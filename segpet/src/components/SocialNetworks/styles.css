@@ -1,5 +1,5 @@
 .socialNetworks_container{
-  display: flex;
+  display: grid;
   margin-top: 100px;
 
   align-items: center;
@@ -45,4 +45,29 @@
   color: var(--primary);
   height: 50px;
   width: auto;
+}
+
+.socialNetworks_item_icon:hover {
+  color: var(--primary);
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 990px){
+  .socialNetworks_container_content{
+    padding: 0;
+
+  }
+  .socialNetworks_container{
+    padding: 5%;
+  }
+
+  .socialNetworks_container_icon{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  
+    grid-template-columns: repeat(4,90px);
+    justify-content: center;
+  }
+
 }

@@ -37,3 +37,14 @@
   text-decoration: none;
   border: 1px solid var(--primary);
 }
+.introduction_item_button:hover{
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--white);
+}
+
+@media screen and (max-width: 990px){
+  .introduction_container {
+    padding: 5%;
+  }
+}
