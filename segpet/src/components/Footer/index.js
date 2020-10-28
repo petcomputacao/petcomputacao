@@ -7,9 +7,9 @@ import { FaFacebook,FaInstagram,FaGithub,FaYoutube } from 'react-icons/fa';
 function Footer(){
   return (
     <footer className='footer_container'>
-      <a href='/' className='footer_container_logo'>
+      <Link to='/' className='footer_container_logo'>
         <img className='footer_item_logo' src={Logo} alt='logo'/>
-      </a>
+      </Link>
       <div className='footer_container_text'>
         <p className={'footer_container_text_title'}>Encontre-nos</p>
         <p>Rua Aprígio Veloso, 882 - Bairro Universitário Bloco CN - Térreo - sala 007. CEP: 58429-900 Campina Grande, Paraíba, Brasil.</p>
@@ -18,35 +18,27 @@ function Footer(){
       </div>
       <div className='footer_container_text'>
         <p className={'footer_container_text_title'}>Sites relacionados</p>
-        <p>
-          <Link to='/' style={{'fontSize':'12px'}}>Apresentação - PET</Link>
-        </p>
-        <p>
-          <Link to='/' style={{'fontSize':'12px'}}>Computação UFCG</Link>
-        </p>
-        <p>        
-          <Link to='/' style={{'fontSize':'12px'}}>Universidade Federal de Campina Grande</Link>
-        </p>
-        <p>
-          <Link to='/' style={{'fontSize':'12px'}}>Portal MEC</Link>
-        </p>
+        <a href="http://portal.mec.gov.br/index.php?option=com_content&view=article&id=12223&ativo=481&Itemid=480" target="_blank" rel="noopener noreferrer"><p>Apresentação - PET</p></a>
+        <a href="http://www.computacao.ufcg.edu.br/" target="_blank" rel="noopener noreferrer"><p>Computação UFCG</p></a>
+        <a href="https://portal.ufcg.edu.br/" target="_blank" rel="noopener noreferrer"><p>Universidade Federal de Campina Grande</p></a>
+        <a href="https://www.gov.br/mec/pt-br/" target="_blank" rel="noopener noreferrer"><p>Portal MEC</p></a>
       </div>
       <div className='footer_container_text'>
         <p className={'footer_container_text_title'}>Conecte-se conosco</p>
         <p>Siga-nos nas redes sociais para manter-se atualizado sobre nossas atividades.</p>
         <div className='footer_container_icons'>
-          <Link to='/facebook'>
+          <a href="https://www.facebook.com/dsc.ufcg.pet/" target="_blank" rel="noopener noreferrer" className="footer_content_link">
             <FaFacebook className='footer_item_icon'/>
-          </Link>
-          <Link to='/instagram'>
+          </a>
+          <a href="https://www.instagram.com/petcomputacaoufcg/" target="_blank" rel="noopener noreferrer" className="footer_content_link">
             <FaInstagram className='footer_item_icon'/>
-          </Link>
-          <Link to='/github'>
+          </a>
+          <a href="https://github.com/petcomputacao/" target="_blank" rel="noopener noreferrer" className="footer_content_link">
             <FaGithub className='footer_item_icon'/>
-          </Link>
-          <Link to='/youtube'>
+          </a>
+          <a href="https://www.youtube.com/channel/UClThtXTTH7mv78CpykN4mrQ/" target="_blank" rel="noopener noreferrer" className="footer_content_link">
             <FaYoutube className='footer_item_icon'/>
-          </Link>
+          </a>
         </div>
       </div>
     </footer>

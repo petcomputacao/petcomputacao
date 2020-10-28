@@ -47,4 +47,8 @@
   .introduction_container {
     padding: 5%;
   }
+  .introduction_item_description{
+    font-size: 16px;
+    margin: 50px 20px;
+  }
 }

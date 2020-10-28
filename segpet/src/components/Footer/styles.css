@@ -28,7 +28,9 @@
   display: grid;
   grid-auto-flow: column;
   grid-template: repet(4,1fr);
+  justify-content: space-around; 
   margin: 5% 10% 0 10%;
+
 }
 
 .footer_item_logo{
@@ -46,6 +48,12 @@
   font-weight: bold;
 }
 
+.footer_content_link{
+  height: 35px;
+  width: 35px;
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 880px){
   .footer_item_logo{
     max-height: 100px;
@@ -59,10 +67,12 @@
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 660px){
   .footer_container{
     grid-template-columns: 1fr;
+    padding-bottom: 5%;
   }
+
   .footer_container_text{
     padding: 0 10%;
   }
