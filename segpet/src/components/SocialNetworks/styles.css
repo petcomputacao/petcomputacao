@@ -38,16 +38,22 @@
   margin-bottom: 40px;
 
   grid-template-columns: repeat(4,100px);
-  justify-content: center;
+  justify-content: center; 
+  justify-items: center;
 }
 
 .socialNetworks_item_icon {
   color: var(--primary);
   height: 50px;
-  width: auto;
+  width: 50px;
 }
 
-.socialNetworks_item_icon:hover {
+.socialNetworks_content_link{
+  height: 50px;
+  width: 50px;
+}
+
+.socialNetworks_content_link:hover{
   color: var(--primary);
   opacity: 0.5;
 }
@@ -61,13 +67,14 @@
     padding: 5%;
   }
 
-  .socialNetworks_container_icon{
+  /* .socialNetworks_container_icon{
     display: grid;
     margin-top: 30px;
     margin-bottom: 40px;
   
     grid-template-columns: repeat(4,90px);
-    justify-content: center;
-  }
+    justify-content: space-around; 
+
+  } */
 
 }

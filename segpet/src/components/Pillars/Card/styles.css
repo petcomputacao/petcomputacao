@@ -46,7 +46,4 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .card_item_title{
-    display: none;
-  }
 }

@@ -19,7 +19,7 @@ function SlideShow(){
         <Slide {...proprietes}>
 
           <div className="slideshow_container_content">
-            <Link to="/" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/qivj6r51dpoho6n/slide0.jpg"})`}}>
+            <Link to="/About" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/qivj6r51dpoho6n/slide0.jpg"})`}}>
               <div className="slideshow_container_text">
                 <p className="slideshow_item_title">
                   Programa de Educação Tutorial
