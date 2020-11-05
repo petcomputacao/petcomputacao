@@ -22,11 +22,11 @@ function Header(){
             <FaTimes onClick={showMenu} className="icon_close" style={{'height': '25px', 'width': '25px', 'color': '#fff'}}/>
         </div>
         <nav className='header_container_nav'>
-          <Link className="nav_label" to='/'>Atividades</Link>
+          <Link className="nav_label" to='/Atividades'>Atividades</Link>
           <Link className="nav_label" to='/Eventos'>Eventos</Link>
           <Link className="nav_label" to='/Integrantes'>Integrantes</Link>
           <Link className="nav_label" to='/Publicacoes'>Publicações</Link>
-          <Link className="nav_label" to='/About'>Sobre</Link>
+          <Link className="nav_label" to='/Sobre'>Sobre</Link>
         </nav>
       </div>
     </div>

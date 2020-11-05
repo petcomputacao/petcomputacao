@@ -19,7 +19,7 @@ function SlideShow(){
         <Slide {...proprietes}>
 
           <div className="slideshow_container_content">
-            <Link to="/About" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/qivj6r51dpoho6n/slide0.jpg"})`}}>
+            <Link to="/Sobre" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/qivj6r51dpoho6n/slide0.jpg"})`}}>
               <div className="slideshow_container_text">
                 <p className="slideshow_item_title">
                   Programa de Educação Tutorial
@@ -29,7 +29,7 @@ function SlideShow(){
           </div>
 
           <div className="slideshow_container_content">
-            <Link to="/" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/gimbjfl11u9pvgt/slide6.jpg"})`}}>
+            <Link to="/Integrantes" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/gimbjfl11u9pvgt/slide6.jpg"})`}}>
               <div className="slideshow_container_text">
                 <p className="slideshow_item_title">
                   Veja quem faz o PET Computação
@@ -39,7 +39,7 @@ function SlideShow(){
           </div>
 
           <div className="slideshow_container_content">
-            <Link to="/" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/kczqhv0caoux1vq/12615487_904769519628347_2784777378725337593_o.jpg"})`}}>
+            <Link to="/Atividades" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/kczqhv0caoux1vq/12615487_904769519628347_2784777378725337593_o.jpg"})`}}>
               <div className="slideshow_container_text">
                 <p className="slideshow_item_title">
                   Jornada Acadêmica de Ciência da Computação UFCG

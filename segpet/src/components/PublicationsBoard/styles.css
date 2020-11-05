@@ -1,0 +1,42 @@
+.publicationsBoard_container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.publicationsBoard_title{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+}
+
+.publicationsBoard_publications_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1170px;
+}
+
+.publicationsBoard_otherCards_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  align-items: center;
+  justify-content: space-around;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 1200px){
+  .publicationsBoard_container{
+    padding: 20px;
+  }
+}

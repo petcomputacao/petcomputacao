@@ -24,8 +24,10 @@
   text-align: left;
 }
 .about_image_right, .about_image_left{
-  max-height: 250px;
-  max-width: 450px;
+  /* max-height: 250px;
+  max-width: 450px; */
+  height: 250px;
+  width: 450px;
 }
 
 .about_image_right{
