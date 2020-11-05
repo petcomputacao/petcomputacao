@@ -8,15 +8,26 @@
   max-width: 970px;
 }
 
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded:hover{
+  margin: 5px 0;
+  transform: scale(1.05);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.MuiPaper-root.MuiAccordion-root.Mui-expanded.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded:hover{
+  margin: 10px 0;
+}
+
 .faq_item_title{
   font-size: 36px;
-  text-align: justify;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .accordion_item_logo{
-  margin-right: 10px;
   color: var(--white);
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 990px){

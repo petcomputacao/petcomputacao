@@ -1,0 +1,34 @@
+.activityBoard_container{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 100px;
+  max-width: 1170px;
+}
+
+.activityBoard_title{
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+  line-height: 30px;
+  text-align: center;
+
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.activityBoard_activity_container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+  .activityBoard_container{
+    padding: 0 5%;
+  }
+}

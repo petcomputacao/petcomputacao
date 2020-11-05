@@ -1,0 +1,39 @@
+.memberBoard_title{
+  text-align: center;
+}
+.memberBoard_container{
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.memberBoard_colorWhite, .memberBoard_colorPrimary{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.memberBoard_colorWhite{
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.memberBoard_colorPrimary{
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.memberBoard_content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1200px){
+  .memberBoard_content{
+    justify-content: center;
+  }
+}

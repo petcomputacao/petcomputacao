@@ -15,7 +15,7 @@ function FAQ(){
     setExpanded(isExpanded ? panel : false);
   };
 
-  const myStyleSheet = {'backgroundColor':'var(--primary)', 'color':'white', 'textAlign': 'justify'};
+  const myStyleSheet ={'backgroundColor':'var(--primary)', 'color':'white', 'textAlign': 'justify',"-moz-transition": "all 0.3s", "-webkit-transition": "all 0.3s", "transition": "all 0.5s"};
 
   function SingleAccordion(props){
     var panel = props.panel;
