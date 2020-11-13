@@ -4,6 +4,10 @@ import Footer from '../../components/Footer';
 import MemberBoard from '../../components/MemberBoard';
 
 function MembersPage(){
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  
   return(
     <>
       <Header/>

@@ -1,22 +1,24 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import './styles.css';
+import {FaChevronRight, FaChevronLeft} from 'react-icons/fa';
 
 const proprietes = {
-  duration: 5000,
-  transitionDuration: 500,
+  duration: 8000,
   infinite: true,
-  indicators: true,
-  arrows: false,
   pauseOnHover:true,
+  transitionDuration: 500,
+  indicators: i => (<div className="slideshow_indicator"></div>),
+  nextArrow: <div style={{width: "50px" ,marginLeft: "-50px"}}><FaChevronRight className="slideshow_arrow"/></div>,
+  prevArrow: <div style={{width: "50px", marginRight: "-50px"}}><FaChevronLeft className="slideshow_arrow"/></div>,
 }
 
 function SlideShow(){
   return(
     <div className="slideshow_container">
-        <Slide {...proprietes}>
+        <Fade {...proprietes}>
 
           <div className="slideshow_container_content">
             <Link to="/Sobre" className="slideshow_item_image" style={{'backgroundImage':`url(${"https://dl.dropboxusercontent.com/s/qivj6r51dpoho6n/slide0.jpg"})`}}>
@@ -47,7 +49,7 @@ function SlideShow(){
               </div>
             </Link>
           </div>      
-        </Slide>
+        </Fade>
       </div>
   );
 }

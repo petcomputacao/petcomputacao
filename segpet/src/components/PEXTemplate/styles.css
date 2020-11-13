@@ -1,0 +1,47 @@
+.pex_container{
+  display: flex;
+  margin-top: 100px;
+  max-width: 1170px;
+  
+  align-items: flex-start;
+  align-self: center;
+  color: var(--primary);
+  flex-direction: column;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;  
+}
+
+.pex_title{
+  line-height: 30px;
+  font-size: 24px;
+  width: 100%;
+  border-bottom: 1px dotted var(--primary);
+}
+
+.pex_subtitle{
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.pex_text{
+  text-align: justify;
+  font-size: 16px;
+  text-indent:4em;
+  margin-top: 0;
+}
+
+.pex_list{
+  margin-top: 0;;
+}
+
+.pex_link{
+  color: var(--blue);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+  .pex_container{
+    padding: 0 5%;
+  }
+}

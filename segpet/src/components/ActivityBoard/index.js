@@ -7,11 +7,11 @@ function ActivityBoard(){
     <div className="activityBoard_container">
       <p className="activityBoard_title">Atividades do PET</p>
       <div className="activityBoard_activity_container">
-        <Activity className="activity_card" link="/" name="PEX COMPETÊNCIAS EM CC" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexcccc.jpg"}/>
-        <Activity className="activity_card" link="/" name="PEX GESTÃO ACADÊMICA CCC " image={"http://www.dsc.ufcg.edu.br/~pet/img/pexgestac.jpg"}/>
-        <Activity className="activity_card" link="/" name="PEX GESTÃO DE EMPREENDIMENTO" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexgestemp.jpg"}/>
-        <Activity className="activity_card" link="/" name="PEX PROJETO OLÍMPICO" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexolimpic.jpg"}/>
-        <Activity className="activity_card" link="/" name="PEX REDES DE PESQUISA" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexpesq.jpg"}/>
+        <Activity className="activity_card" link="/Atividades/Competencias" name="PEX COMPETÊNCIAS EM CC" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexcccc.jpg"}/>
+        <Activity className="activity_card" link="/Atividades/GestaoAcademica" name="PEX GESTÃO ACADÊMICA CCC " image={"http://www.dsc.ufcg.edu.br/~pet/img/pexgestac.jpg"}/>
+        <Activity className="activity_card" link="/Atividades/GestaoDeEmpreendimento" name="PEX GESTÃO DE EMPREENDIMENTO" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexgestemp.jpg"}/>
+        <Activity className="activity_card" link="/Atividades/ProjetoOlimpico" name="PEX PROJETO OLÍMPICO" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexolimpic.jpg"}/>
+        <Activity className="activity_card" link="/Atividades/RedesDePesquisa" name="PEX REDES DE PESQUISA" image={"http://www.dsc.ufcg.edu.br/~pet/img/pexpesq.jpg"}/>
       </div>
     </div>
   );
