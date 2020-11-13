@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Activity(props){
   return (
     <div className="activity_container">
-      <Link to="/" className="activity_image">
+      <Link to={props.link} className="activity_image">
         <img src={props.image} alt='logo'/>
       </Link>
       <div className="activity_container_text">

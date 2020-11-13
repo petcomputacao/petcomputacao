@@ -7,6 +7,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import { FaEllipsisV } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function FAQ(){
   const [expanded, setExpanded] = React.useState(false);
@@ -33,11 +34,13 @@ function FAQ(){
     <div className='faq_container'>
       <div className={'faq_container_content'}>
         <p className='faq_item_title'>FAQ</p>
-        <SingleAccordion panel={'panel1'} panelId={1} question={'O que é o PET?'} answer={'O Programa de Educação Tutorial foi criado para apoiar atividades que integram ensino pesquisa e extensão. O PET proporciona aos alunos, sob orientação de um tutor, a realização de atividades extracurriculares que complementem a formação acadêmica dos estudantes e, ao mesmo tempo, atendam necessidades do próprio curso de graduação.'}></SingleAccordion>
-        <SingleAccordion panel={'panel2'} panelId={2} question={'O que é o PET Informática?'} answer={'PET-Informática é o PET do curso de Ciência da Computação da Universidade Federal de Pernambuco, composto por alunos bolsistas e não bolsistas, sob a orientação de um professor tutor, atualmente a professora Simone Santos.'}></SingleAccordion>
-        <SingleAccordion panel={'panel3'} panelId={3} question={'Como entro no PET?'} answer={'Periodicamente, com a saída de antigos petianos, são abertas novas vagas para o grupo. A abertura do processo seletivo é divulgada na nossa página do Facebook através do lançamento do edital de Convocação. O processo seletivo se resume em três etapas: uma primeira, onde o candidato envia currículos e outros documentos sobre a vida acadêmica e a terceira, onde é realizada uma dinâmica em grupo e uma entrevista individual. O processo é aberto para alunos de Ciência da Computação da UFPE que estejam entre o 1º e o 7º período.'}></SingleAccordion>
-        <SingleAccordion panel={'panel4'} panelId={4} question={'Quem pode participar do PET?'} answer={'Diretamente, apenas alunos de Ciência da Computação que não tenham nenhuma reprovação pendente no histórico escolar, mas alunos de outros cursos e funcionários são mais do que convidados a participarem como voluntários de atividades como Doação de Sangue e também OPEI conosco, além de assistirem as palestras e aos workshops.'}></SingleAccordion>
-        <SingleAccordion panel={'panel5'} panelId={5} question={'Por que alunos de Engenharia da Computação não podem participar do PET?'} answer={'Quando um grupo PET é criado, ele fica associado a um curso de graduação da universidade e fica restrito àquele curso. Quando o PET-Informática foi criado, ele foi associado ao antigo curso de Informática, que foi substituído pelo curso de Ciência da Computação e por este motivo, só pode receber alunos desse curso.'}></SingleAccordion>
+        <SingleAccordion panel={'panel1'} panelId={1} question={'O que é o PET?'} answer={<p>É um programa do Governo Federal brasileiro de estímulo a atividades de pesquisa, ensino e extensão universitárias, no nível de graduação. O programa é subordinado à Secretaria de Ensino Superior (SESu) do Ministério da Educação (MEC).</p>}></SingleAccordion>
+        <SingleAccordion panel={'panel2'} panelId={2} question={'Quem pode entrar no PET?'} answer={<ul><li>Alunos regularmente matriculados no curso de graduação em Ciência da Computação.</li><li>Ter concluído o primeiro período do curso e ter pelo menos dois períodos completos restantes a serem cursados para a conclusão do curso.</li><li>Possuir Coeficiente de Rendimento Acadêmico (CRA) maior ou igual a 6,0 (seis).</li><li>Possuir 20h para se dedicar ao programa.</li></ul>}></SingleAccordion>
+        <SingleAccordion panel={'panel3'} panelId={3} question={'Com ser um integrante do PET?'} answer={'Deve ser aprovado no processo seletivo, que é aberto quando o programa está com vagas para serem preenchidas.'}></SingleAccordion>
+        <SingleAccordion panel={'panel4'} panelId={4} question={'Os petianos recebem bolsa?'} answer={'Atualmente o PET conta com 12 vagas para bolsistas e 6 vagas para não bolsistas. O valor da bolsa é R$400,00. Não há distinção nas atribuições e responsabilidades dos bolsistas e não bolsistas.'}></SingleAccordion>
+        <SingleAccordion panel={'panel5'} panelId={5} question={'O que os petianos fazem?'} answer={<p>Cada petiano é coordenador de uma atividade dentro das diversas que estão apresentas <Link to="/atividades">aqui</Link> e membro das demais. Além disso, auxiliamos em algumas atividades no contexto universitário, como organizações de eventos e também auxiliamos escolas que querem apresentar aos alunos conceitos da computação.</p>}></SingleAccordion>
+        <SingleAccordion panel={'panel6'} panelId={6} question={'É possível que um petiano não possua os requisitos para continuar no PET?'} answer={'Sim. Caso o integrante acumule duas reprovações depois de ter ingressado não pode continuar no PET.'}></SingleAccordion>
+
       </div>
     </div>
   );

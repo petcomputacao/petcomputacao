@@ -4,6 +4,10 @@ import Footer from '../../components/Footer';
 import ActivityBoard from '../../components/ActivityBoard';
 
 function Activities(){
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  
   return(
     <>
       <Header/>

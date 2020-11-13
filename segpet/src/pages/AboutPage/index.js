@@ -5,6 +5,10 @@ import About from '../../components/About';
 
 
 function AboutPage(){
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return(
     <>
       <Header/>
