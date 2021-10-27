@@ -1,152 +1,98 @@
 [
   {
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 0
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Adísio Júnior",
+    "img": "https://github.com/adisiojunior.png",
+    "github" : "https://github.com/adisiojunior",
     "email" : "",
     "status": 1
   },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 1
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Caio Davi",
+    "img": "https://github.com/caiodavic.png",
+    "github" : "https://github.com/caiodavic",
     "email" : "",
     "status": 2
   },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Carlos Fuch",
+    "img": "https://github.com/httpcarlxs.png",
+    "github" : "https://github.com/httpcarlxs",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Davvi Duarte",
+    "img": "https://github.com/Davvi-Duarte.png",
+    "github" : "https://github.com/Davvi-Duarte",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Dayvid Silva",
+    "img": "https://github.com/dayvidds.png",
+    "github" : "https://github.com/dayvidds",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Diego Almeida",
+    "img": "https://github.com/diegooalmeida.png",
+    "github" : "https://github.com/diegooalmeida",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Emannuelly Melo",
+    "img": "https://github.com/emannuellymelo.png",
+    "github" : "https://github.com/emannuellymelo",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Filipe Ramalho",
+    "img": "https://github.com/musquitinh0.png",
+    "github" : "https://github.com/musquitinh0",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Gilmar Gonzaga",
+    "img": "https://github.com/GilmarGS.png",
+    "github" : "https://github.com/GilmarGS",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Izabella Ribeiro",
+    "img": "https://github.com/IzabellaRibeiro.png",
+    "github" : "https://github.com/IzabellaRibeiro",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Luis Batista",
+    "img": "https://github.com/luizcjsbatista.png",
+    "github" : "https://github.com/luizcjsbatista",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Roberta Felix",
+    "img": "https://github.com/RobertaFlx.png",
+    "github" : "https://github.com/RobertaFlx",
+    "email" : "",
+    "status": 1
+  },{
+    "nome": "Rocha Sofia",
+    "img": "https://github.com/RochaSofia.png",
+    "github" : "https://github.com/RochaSofia",
     "email" : "",
     "status": 2
   },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Samara Sonale",
+    "img": "https://github.com/samarasss.png",
+    "github" : "https://github.com/samarasss",
     "email" : "",
     "status": 2
   },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Thiago Montenegro",
+    "img": "https://github.com/thimontenegro.png",
+    "github" : "https://github.com/thimontenegro",
     "email" : "",
     "status": 2
   },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
-    "email" : "",
-    "status": 2
-  },{
-    "nome": "Pablwo Araújo",
-    "img": "https://github.com/pablwoAraujo.png",
-    "github" : "https://github.com/pablwoAraujo",
+    "nome": "Vinicius Azevedo",
+    "img": "https://github.com/viniciussousaazevedo.png",
+    "github" : "https://github.com/viniciussousaazevedo",
     "email" : "",
     "status": 2
   }
