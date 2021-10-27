@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/segpet-frontend/static/css/main.a9611f5b.chunk.css",
+    "main.js": "/segpet-frontend/static/js/main.71fec039.chunk.js",
+    "main.js.map": "/segpet-frontend/static/js/main.71fec039.chunk.js.map",
+    "runtime-main.js": "/segpet-frontend/static/js/runtime-main.0d55480c.js",
+    "runtime-main.js.map": "/segpet-frontend/static/js/runtime-main.0d55480c.js.map",
+    "static/css/2.799c978e.chunk.css": "/segpet-frontend/static/css/2.799c978e.chunk.css",
+    "static/js/2.c59c787a.chunk.js": "/segpet-frontend/static/js/2.c59c787a.chunk.js",
+    "static/js/2.c59c787a.chunk.js.map": "/segpet-frontend/static/js/2.c59c787a.chunk.js.map",
+    "index.html": "/segpet-frontend/index.html",
+    "precache-manifest.0744018a0b4c0272a4e3f2c30f1c65e8.js": "/segpet-frontend/precache-manifest.0744018a0b4c0272a4e3f2c30f1c65e8.js",
+    "service-worker.js": "/segpet-frontend/service-worker.js",
+    "static/css/2.799c978e.chunk.css.map": "/segpet-frontend/static/css/2.799c978e.chunk.css.map",
+    "static/css/main.a9611f5b.chunk.css.map": "/segpet-frontend/static/css/main.a9611f5b.chunk.css.map",
+    "static/js/2.c59c787a.chunk.js.LICENSE.txt": "/segpet-frontend/static/js/2.c59c787a.chunk.js.LICENSE.txt",
+    "static/media/whiteLogo.png": "/segpet-frontend/static/media/whiteLogo.ca2c3c18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d55480c.js",
+    "static/css/2.799c978e.chunk.css",
+    "static/js/2.c59c787a.chunk.js",
+    "static/css/main.a9611f5b.chunk.css",
+    "static/js/main.71fec039.chunk.js"
+  ]
+}
