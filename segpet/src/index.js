@@ -17,7 +17,7 @@ import RedesDePesquisaPage from './pages/PEXRedesDePesquisaPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" component={HomePage} exact />
         <Route path="/Sobre" component={AboutPage} exact />
