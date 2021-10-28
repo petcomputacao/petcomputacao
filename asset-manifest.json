@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/petcomputacao/static/css/main.c0f110ee.chunk.css",
-    "main.js": "/petcomputacao/static/js/main.22d5eddb.chunk.js",
-    "main.js.map": "/petcomputacao/static/js/main.22d5eddb.chunk.js.map",
-    "runtime-main.js": "/petcomputacao/static/js/runtime-main.72baad24.js",
-    "runtime-main.js.map": "/petcomputacao/static/js/runtime-main.72baad24.js.map",
-    "static/css/2.b57b7cfd.chunk.css": "/petcomputacao/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.6562b53a.chunk.js": "/petcomputacao/static/js/2.6562b53a.chunk.js",
-    "static/js/2.6562b53a.chunk.js.map": "/petcomputacao/static/js/2.6562b53a.chunk.js.map",
+    "main.css": "/petcomputacao/static/css/main.c66e81b8.chunk.css",
+    "main.js": "/petcomputacao/static/js/main.e5376e20.chunk.js",
+    "main.js.map": "/petcomputacao/static/js/main.e5376e20.chunk.js.map",
+    "runtime-main.js": "/petcomputacao/static/js/runtime-main.aa921ee8.js",
+    "runtime-main.js.map": "/petcomputacao/static/js/runtime-main.aa921ee8.js.map",
+    "static/css/2.799c978e.chunk.css": "/petcomputacao/static/css/2.799c978e.chunk.css",
+    "static/js/2.c59c787a.chunk.js": "/petcomputacao/static/js/2.c59c787a.chunk.js",
+    "static/js/2.c59c787a.chunk.js.map": "/petcomputacao/static/js/2.c59c787a.chunk.js.map",
     "index.html": "/petcomputacao/index.html",
-    "static/css/2.b57b7cfd.chunk.css.map": "/petcomputacao/static/css/2.b57b7cfd.chunk.css.map",
-    "static/css/main.c0f110ee.chunk.css.map": "/petcomputacao/static/css/main.c0f110ee.chunk.css.map",
-    "static/js/2.6562b53a.chunk.js.LICENSE.txt": "/petcomputacao/static/js/2.6562b53a.chunk.js.LICENSE.txt",
-    "static/media/whiteLogo.8d95ef42.png": "/petcomputacao/static/media/whiteLogo.8d95ef42.png"
+    "precache-manifest.aa566e6af2f6b22450c679d83c8d5a4c.js": "/petcomputacao/precache-manifest.aa566e6af2f6b22450c679d83c8d5a4c.js",
+    "service-worker.js": "/petcomputacao/service-worker.js",
+    "static/css/2.799c978e.chunk.css.map": "/petcomputacao/static/css/2.799c978e.chunk.css.map",
+    "static/css/main.c66e81b8.chunk.css.map": "/petcomputacao/static/css/main.c66e81b8.chunk.css.map",
+    "static/js/2.c59c787a.chunk.js.LICENSE.txt": "/petcomputacao/static/js/2.c59c787a.chunk.js.LICENSE.txt",
+    "static/media/whiteLogo.png": "/petcomputacao/static/media/whiteLogo.ca2c3c18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.72baad24.js",
-    "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.6562b53a.chunk.js",
-    "static/css/main.c0f110ee.chunk.css",
-    "static/js/main.22d5eddb.chunk.js"
+    "static/js/runtime-main.aa921ee8.js",
+    "static/css/2.799c978e.chunk.css",
+    "static/js/2.c59c787a.chunk.js",
+    "static/css/main.c66e81b8.chunk.css",
+    "static/js/main.e5376e20.chunk.js"
   ]
 }
