@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/petcomputacao/static/css/main.c66e81b8.chunk.css",
-    "main.js": "/petcomputacao/static/js/main.e5376e20.chunk.js",
-    "main.js.map": "/petcomputacao/static/js/main.e5376e20.chunk.js.map",
+    "main.js": "/petcomputacao/static/js/main.39a3ed25.chunk.js",
+    "main.js.map": "/petcomputacao/static/js/main.39a3ed25.chunk.js.map",
     "runtime-main.js": "/petcomputacao/static/js/runtime-main.aa921ee8.js",
     "runtime-main.js.map": "/petcomputacao/static/js/runtime-main.aa921ee8.js.map",
     "static/css/2.799c978e.chunk.css": "/petcomputacao/static/css/2.799c978e.chunk.css",
     "static/js/2.c59c787a.chunk.js": "/petcomputacao/static/js/2.c59c787a.chunk.js",
     "static/js/2.c59c787a.chunk.js.map": "/petcomputacao/static/js/2.c59c787a.chunk.js.map",
     "index.html": "/petcomputacao/index.html",
-    "precache-manifest.aa566e6af2f6b22450c679d83c8d5a4c.js": "/petcomputacao/precache-manifest.aa566e6af2f6b22450c679d83c8d5a4c.js",
+    "precache-manifest.2bd57edbfe8b5b74491fb7370270d45e.js": "/petcomputacao/precache-manifest.2bd57edbfe8b5b74491fb7370270d45e.js",
     "service-worker.js": "/petcomputacao/service-worker.js",
     "static/css/2.799c978e.chunk.css.map": "/petcomputacao/static/css/2.799c978e.chunk.css.map",
     "static/css/main.c66e81b8.chunk.css.map": "/petcomputacao/static/css/main.c66e81b8.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.799c978e.chunk.css",
     "static/js/2.c59c787a.chunk.js",
     "static/css/main.c66e81b8.chunk.css",
-    "static/js/main.e5376e20.chunk.js"
+    "static/js/main.39a3ed25.chunk.js"
   ]
 }
